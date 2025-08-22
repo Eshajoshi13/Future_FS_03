@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Starbucks Theme Colors */
+:root {
+  --sb-green: #00704A;
+  --sb-cream: #F5F5DC;
+  --sb-brown: #4E342E;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  background-color: var(--sb-cream);
+  color: var(--sb-brown);
+}
+
+h1, h2, h3 {
+  color: var(--sb-green);
+  font-weight: 800;
+}
